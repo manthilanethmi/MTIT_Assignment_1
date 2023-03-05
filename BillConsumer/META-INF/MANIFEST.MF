@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BillConsumer
+Bundle-SymbolicName: BillConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: billconsumer.BillConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: BillConsumer
+Import-Package: billproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
